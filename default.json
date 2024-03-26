@@ -1,4 +1,6 @@
 {
     "extends": ["config:base", "group:all", ":semanticCommitTypeAll(chore)"],
-    "rangeStrategy": "bump"
+    "rangeStrategy": "bump",
+    "timezone": "America/New_York",
+    "schedule": "before 9am on sunday",
 }
