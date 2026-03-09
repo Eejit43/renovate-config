@@ -1,7 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended", ":semanticCommitTypeAll(chore)"],
-    "packageRules": [{ "matchManagers": ["*"], "groupName": "{{{manager}}}" }]
+    "packageRules": [{ "matchManagers": ["*"], "groupName": "{{{manager}}}" }],
     "rangeStrategy": "bump",
     "timezone": "America/New_York",
     "schedule": "before 9am on sunday"
