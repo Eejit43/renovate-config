@@ -3,5 +3,6 @@
     "extends": ["config:recommended", "schedule:monthly", ":semanticCommitTypeAll(chore)"],
     "packageRules": [{ "matchManagers": ["*"], "groupName": "{{{manager}}}" }],
     "separateMajorMinor": false,
-    "rangeStrategy": "bump"
+    "rangeStrategy": "bump",
+    "timezone": "America/New_York"
 }
